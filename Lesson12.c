@@ -41,40 +41,6 @@
 * \date            26 décembre 2015
 * \brief           Ouvre une simple fenêtre Windows et dessine un liste de cubes avec OpenGL. Chaque cube est généré avec un fichier BITMAP en texture mapping et colorisé.
 * \details         Ce programme ne gére que trois événements : le clic sur le bouton "Fermé" de la fenêtre, la sortie par la touche ESC
-/**         Comments manageable by Doxygen
-*
-*  Modified smoothly by Thierry DECHAIZE
-*
-*  Paradigm : obtain one source (only one !) compatible for multiple free C Compilers
-*    and provide for all users an development environment on Windows (64 bits compatible),
-*    the great Code::Blocks manager (version 13.12), and don't use glaux.lib or glaux.dll.
-*
-*	 a) Mingw 32 and 64 bits : downloadable http://sourceforge.net/projects/mingw/
-*    b) Mingw 32 DEV-CPP  : included in old Dev-Cpp http://sourceforge.net/projects/devcpp/
-*    c) Mingw 32 CB : included in package Code::Blocks (version 13.12) http://sourceforge.net/projects/codeblocks/files/Binaries/12.11/Windows/
-*    d) Borland C : downloadable  http://edn.embarcadero.com/article/20633
-*    e) Digital Mars Compiler C : version 8.57 downloadable http://www.digitalmars.com
-*    f) OpenWatcom : version 1.9 downloadable http://openwatcom.mirror.fr/    Version 2.0 64bits seems very buggy !!!
-*	 g) Lcc and Lcc64 : downloadable http://www.cs.virginia.edu/~lcc-win32/
-*	 h) Cygwin : downloadable http://www.cygwin.com/install.html (setup.exe)
-*	 i) Visual Studio 2005 + 64bits: express edition for free (my version 2005 is full not express) http://www.microsoft.com/france/visual-studio/essayez/express.aspx
-*    j) TDM GCC 64 bits : downloadable on http://sourceforge.net/projects/TDM-GCC
-*
-*  Important remark : All install in C partition, "no space" and "no special characters" in the name of directories
-*            (it's reason to not install in C:\Program Files (x86) ... by default proposed on windows 64 bits)
-*
-*  Add resource file end resource header for restitute version + icon OpenGL.ico for fun
-*  because versionning is important, same for freeware :-) !
-*
-*  Date : 2015/12/26
-*
-* \file            Lesson12.c
-* \author          Jeff Molofee ( NeHe ) originely, Modified for LCCWin32 compiler by Robert Wishlaw 2002/11/23
-* \author          After adapted by Thierry Dechaize to verify paradigm : one source for multiple C Compilers
-* \version         1.0.1.2
-* \date            26 décembre 2015
-* \brief           Ouvre une simple fenêtre Windows et dessine plusieurs cubes avec OpenGL. Chaque cube est généré avec un fichier BITMAP en texture mapping et colorisé.
-* \details         Ce programme ne gére que trois événements : le clic sur le bouton "Fermé" de la fenêtre, la sortie par la touche ESC et les flêches de navigation clavier.
 *
 *
 */
