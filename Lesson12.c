@@ -40,7 +40,7 @@
 * \version         1.0.1.2
 * \date            26 décembre 2015
 * \brief           Ouvre une simple fenêtre Windows et dessine un liste de cubes avec OpenGL. Chaque cube est généré avec un fichier BITMAP en texture mapping et colorisé.
-* \details         Ce programme ne gére que trois événements : le clic sur le bouton "Fermé" de la fenêtre, la sortie par la touche ESC
+* \details         Ce programme ne gére que deux événements : le clic sur le bouton "Fermé" de la fenêtre, la sortie par la touche ESC.
 *
 *
 */
